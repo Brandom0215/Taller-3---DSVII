@@ -1,110 +1,110 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <!-- Configuracion basica del documento -->
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Titulo de la pagina -->
+  <!-- titulo de la pagina -->
   <title>ODS - Acciones</title>
 
-  <!-- Archivos de estilos -->
+  <!-- archivos de estilos -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <link href="css/estilos.css" rel="stylesheet" />
 </head>
 
 <body>
 
-<!-- ================= INICIO HEADER ================= -->
-<!-- Incluye el encabezado de la pagina (titulo principal y descripcion) -->
+<!-- inicio header -->
+<!-- aqui se carga el encabezado con el titulo principal -->
 <?php include("headerpag3.html"); ?>
-<!-- ================= FIN HEADER ================= -->
+<!-- fin header -->
 
 
-<!-- ================= INICIO CONTENEDOR PRINCIPAL ================= -->
+<!-- inicio contenedor -->
 <div id="contenedor" class="container">
 
-  <!-- ================= INICIO NAV ================= -->
-  <!-- Menu de navegacion principal (Inicio, ODS, Acciones) -->
+  <!-- inicio nav -->
+  <!-- menu principal para navegar entre paginas -->
   <?php include("navpag3.html"); ?>
-  <!-- ================= FIN NAV ================= -->
+  <!-- fin nav -->
 
 
-  <!-- ================= INICIO BREADCRUMB ================= -->
-  <!-- Miga de pan: indica en qué pagina esta el usuario -->
+  <!-- inicio breadcrumb -->
+  <!-- muestra en que parte del sitio esta el usuario -->
   <?php include("breadcrumbpag3.html"); ?>
-  <!-- ================= FIN BREADCRUMB ================= -->
+  <!-- fin breadcrumb -->
 
 
-  <!-- ================= INICIO JUMBOTRON ================= -->
-  <!-- Seccion destacada con titulo grande y mensaje principal -->
+  <!-- inicio jumbotron -->
+  <!-- seccion destacada con mensaje principal -->
   <?php include("jumbotronpag3.html"); ?>
-  <!-- ================= FIN JUMBOTRON ================= -->
+  <!-- fin jumbotron -->
 
 
-  <!-- ================= INICIO CARRUSEL ================= -->
-  <!-- Carrusel de imagenes con información de los ODS -->
+  <!-- inicio carrusel -->
+  <!-- imagenes que van cambiando automaticamente -->
   <?php include("carouselpag3.html"); ?>
-  <!-- ================= FIN CARRUSEL ================= -->
+  <!-- fin carrusel -->
 
 
-  <!-- ================= INICIO GRID ================= -->
-  <!-- Estructura de columnas (layout principal de la pagina) -->
+  <!-- inicio grid -->
+  <!-- estructura de columnas -->
   <div class="row">
 
-    <!-- ===== INICIO COLUMNA IZQUIERDA ===== -->
-    <!-- Contiene acciones rapidas (thumbnails) -->
+    <!-- inicio columna izquierda -->
+    <!-- contiene acciones rapidas -->
     <?php include("col_izqpag3.html"); ?>
-    <!-- ===== FIN COLUMNA IZQUIERDA ===== -->
+    <!-- fin columna izquierda -->
 
 
-    <!-- ===== INICIO COLUMNA CENTRAL ===== -->
-    <!-- Contiene acciones importantes (paneles principales) -->
+    <!-- inicio columna central -->
+    <!-- contiene acciones importantes -->
     <?php include("col_centropag3.html"); ?>
-    <!-- ===== FIN COLUMNA CENTRAL ===== -->
+    <!-- fin columna central -->
 
 
-    <!-- ===== INICIO COLUMNA DERECHA ===== -->
-    <!-- Contiene informacion social y contenido adicional -->
+    <!-- inicio columna derecha -->
+    <!-- contiene informacion adicional -->
     <?php include("col_derechapag3.html"); ?>
-    <!-- ===== FIN COLUMNA DERECHA ===== -->
+    <!-- fin columna derecha -->
 
   </div>
-  <!-- ================= FIN GRID ================= -->
+  <!-- fin grid -->
 
 
-  <!-- ================= INICIO ACCORDION ================= -->
-  <!-- Seccion desplegable con informacion adicional -->
+  <!-- inicio acordeon -->
+  <!-- seccion que se despliega al hacer clic -->
   <?php include("accordionpag3.html"); ?>
-  <!-- ================= FIN ACCORDION ================= -->
+  <!-- fin acordeon -->
 
 
-  <!-- ================= INICIO MODAL ================= -->
-  <!-- Ventana emergente (popup) que muestra mas informacion -->
+  <!-- inicio modal -->
+  <!-- ventana emergente con mas informacion -->
   <?php include("modalpag3.html"); ?>
-  <!-- ================= FIN MODAL ================= -->
+  <!-- fin modal -->
 
 
-  <!-- ================= INICIO PAGINACION ================= -->
-  <!-- Navegacion entre paginas (1, 2, 3) -->
+  <!-- inicio paginacion -->
+  <!-- botones para cambiar de pagina -->
   <?php include("paginacionpag3.html"); ?>
-  <!-- ================= FIN PAGINACIÓN ================= -->
+  <!-- fin paginacion -->
 
 </div>
-<!-- ================= FIN CONTENEDOR PRINCIPAL ================= -->
+<!-- fin contenedor -->
 
 
-<!-- ================= INICIO FOOTER ================= -->
-<!-- Pie de página con información institucional -->
+<!-- inicio footer -->
+<!-- pie de pagina con informacion -->
 <?php include("footerpag3.html"); ?>
-<!-- ================= FIN FOOTER ================= -->
+<!-- fin footer -->
 
 
-<!-- ================= INICIO SCRIPTS ================= -->
-<!-- Librerias necesarias para que funcione Bootstrap -->
+<!-- inicio scripts -->
+<!-- archivos necesarios para que funcione bootstrap -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<!-- ================= FIN SCRIPTS ================= -->
+<!-- fin scripts -->
 
 </body>
 </html>
