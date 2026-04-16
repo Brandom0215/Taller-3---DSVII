@@ -18,10 +18,10 @@
     <title>ODS - Página 2</title>
     <!-- Titulo que aparece en la pestaña del navegador -->
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <!-- Enlace al archivo CSS de Bootstrap -->
 
-    <link href="css/estilos.css" rel="stylesheet" />
+    <link href="../css/estilos.css" rel="stylesheet" />
     <!-- Enlace a estilos personalizados -->
   </head>
 
@@ -37,13 +37,13 @@
             <a class="navbar-brand">Taller #2_ODS</a>
             <ul class="nav navbar-nav">
               <li>
-                <a href="index.html">Inicio</a>
+                <a href="../index.php">Inicio</a>
               </li>
               <li class="active">
-                <a href="pagina2.html">Objetivos de Desarrollo Sostenible</a>
+                <a href="../pagina 2/pagina 2.php">Objetivos de Desarrollo Sostenible</a>
               </li>
               <li>
-                <a href="pagina3.html">Acciones de las ODS</a>
+                <a href="../pagina 3/pagina 3.php">Acciones de las ODS</a>
               </li>
             </ul>
           </div>
@@ -53,10 +53,10 @@
         <!--Inicia las migas de pan-->
         <ol class="breadcrumb">
           <li>
-            <a href="index.html">Inicio</a>
+            <a href="../index.php">Inicio</a>
           </li>
           <li>
-            <a href="pagina2.html">Objetivos de Desarrollo Sostenible</a>
+            <a href="../pagina 2/pagina 2.php">Objetivos de Desarrollo Sostenible</a>
           </li>
         </ol> <!--Finaliza las migas de pan-->
       </div>
@@ -185,84 +185,7 @@
         Seleccione un ODS para ver información
       </div>
 
-      <!-- GRID DE IMAGENES -->
-      <div class="row text-center">
-        <!-- Fila de Bootstrap -->
-
-        <!-- Cada columna muestra una imagen de un ODS -->
-        <div class="col-md-3">
-          <img src="imagenes/ods1.png" class="img-responsive" />
-          <p>ODS 1</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods2.png" class="img-responsive" />
-          <p>ODS 2</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods3.png" class="img-responsive" />
-          <p>ODS 3</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods4.png" class="img-responsive" />
-          <p>ODS 4</p>
-        </div>
-
-        <div class="col-md-3">
-          <img src="imagenes/ods5.png" class="img-responsive" />
-          <p>ODS 5</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods6.png" class="img-responsive" />
-          <p>ODS 6</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods7.png" class="img-responsive" />
-          <p>ODS 7</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods8.png" class="img-responsive" />
-          <p>ODS 8</p>
-        </div>
-
-        <div class="col-md-3">
-          <img src="imagenes/ods9.png" class="img-responsive" />
-          <p>ODS 9</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods10.png" class="img-responsive" />
-          <p>ODS 10</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods11.png" class="img-responsive" />
-          <p>ODS 11</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods12.png" class="img-responsive" />
-          <p>ODS 12</p>
-        </div>
-
-        <div class="col-md-3">
-          <img src="imagenes/ods13.png" class="img-responsive" />
-          <p>ODS 13</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods14.png" class="img-responsive" />
-          <p>ODS 14</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods15.png" class="img-responsive" />
-          <p>ODS 15</p>
-        </div>
-        <div class="col-md-3">
-          <img src="imagenes/ods16.png" class="img-responsive" />
-          <p>ODS 16</p>
-        </div>
-
-        <div class="col-md-3">
-          <img src="imagenes/ods17.png" class="img-responsive" />
-          <p>ODS 17</p>
-        </div>
-      </div>
+      <?php include("grid_imagenes.html"); ?>
 
       <!-- ACCORDION -->
       <div class="panel-group">
@@ -295,11 +218,11 @@
     <div class="panel-body text-center"><!-- Inicia panel de paginación -->
 
         <ul class="pagination"><!-- Inicia paginación -->
-            <li><a href="index.html">Atrás</a></li>
-            <li><a href="index.html">1</a></li>
-            <li class="active"><a href="pagina2.html">2</a></li>
-            <li><a href="pagina3.html">3</a></li>
-            <li><a href="pagina3.html">Siguiente</a></li>
+            <li><a href="../index.php">Atrás</a></li>
+            <li><a href="../index.php">1</a></li>
+            <li class="active"><a href="../pagina 2/pagina 2.php">2</a></li>
+            <li><a href="../pagina 3/pagina 3.php">3</a></li>
+            <li><a href="../pagina 3/pagina 3.php">Siguiente</a></li>
         </ul><!-- Termina paginación -->
 
     </div><!-- Termina panel de paginación -->
@@ -309,9 +232,9 @@
       <div class="container text-center">
         <!-- Redes sociales -->
         <center>
-          <a href=""><img src="imagenes/face.jpg" width="50px" /></a>
-          <a href=""><img src="imagenes/ig.png" width="50px" /></a>
-          <a href=""><img src="imagenes/redX.png" width="50px" /></a>
+          <a href=""><img src="../imagenes/face.jpg" width="50px" /></a>
+          <a href=""><img src="../imagenes/ig.png" width="50px" /></a>
+          <a href=""><img src="../imagenes/redX.png" width="50px" /></a>
         </center>
 
         <br /><strong>UNIVERSIDAD TECNOLÓGICA DE PANAMÁ</strong><br />
@@ -325,10 +248,10 @@
     </footer>
     <!--Termina FOOTER-->
 
-    <script src="js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
     <!-- Libreria jQuery necesaria para Bootstrap -->
 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
     <!-- JavaScript de Bootstrap -->
 
     <!-- SCRIPT -->
@@ -341,7 +264,7 @@
         document.getElementById("infoODS").innerHTML =
           "<h3>" +
           texto +
-          "</h3><img src='imagenes/ods" +
+          "</h3><img src='../imagenes/ods" +
           texto.split(" ")[1].replace(":", "") +
           ".png' width='120'>";
       }
