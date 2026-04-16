@@ -1,0 +1,296 @@
+/* Fondo y fuente */
+body {
+    background-color: #012a26;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+#contenedor {
+    margin-top: 30px;
+    padding: 15px;
+}
+
+/* Header */
+header {
+    background-color: #014d44;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    color: #00fff2;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+/* menus */
+.navbar {
+    background-color: #01695f;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+}
+
+.navbar a {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #00fff2 !important;
+}
+
+.navbar .active a {
+    background-color: #00d2c8;
+    color: #012a26 !important;
+}
+
+/* Carrusel */
+.carousel-inner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Panel principal */
+#panelprincipal {
+    background-color: #014d44;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 255, 242, 0.2);
+}
+
+/* Textos */
+h1, h3 {
+    text-align: center;
+    color: #00fff2;
+}
+
+p {
+    font-size: 18px;
+    color: #e0f7f7;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* Colores por columnas */
+.col-md-12 p {
+    color: #ffffff;
+}
+
+.col-md-4 p {
+    color: #00d2c8;
+}
+
+.col-md-6 p {
+    color: #a2ffe9;
+}
+
+.col-md-8 p {
+    color: #aaffcc;
+}
+
+/* Imagenes de contenido */
+.imgcontenido {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imgpanelderecho {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Thumbnail imagenes */
+.col-md-6 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+          /* Efectos hover en imagenes de ods */
+.img-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-hover:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+                         /* Estilizado del Footer */
+footer {
+    background-color: #001d1a;
+    padding: 30px 20px;
+    margin-top: 40px;
+    border-top: 4px solid #00d2c8;
+    text-align: center;
+}
+
+footer p {
+    color: #b2e0e0;
+    font-size: 16px;
+}
+
+.pies {
+    color: #8cc;
+}
+
+                         /*Textos e imagenes responsive*/
+@media (max-width: 768px) {
+    header {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .imgcontenido, .imgpanelderecho {
+        width: 100%;
+        height: auto;
+    }
+}
+
+                                    /*Colores de contraste en thumbnail y jumbotron*/
+.thumbnail h2, .thumbnail h3 , .thumbnail h4, .thumbnail p{
+	color: #012a26;
+}
+
+.jumbotron h1, .jumbotron p{
+	color: #012a26;
+}
+
+
+/* CAMBIOS */
+
+/* Panel general Modificado */
+.panel {
+    background-color: #014d44 !important;
+    border: none !important;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,255,255,0.1);
+    transition: all 0.3s ease; /* 👈 IMPORTANTE */
+}
+
+.panel:hover { /* Efecto de hover al panel */
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+}
+
+/* Boton personalizado */
+button{
+    background-color: #00bfa5 !important;
+    border: none !important;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+button:hover{ /* Hover para el boton */
+    background-color: #ff6f00 !important;
+    color: #ffffff !important;
+    transform: scale(1.1); /* cambio un poco más notorio */
+    box-shadow: 0 0 12px rgba(255,111,0,0.8);
+}
+
+
+.thumbnail {
+    background-color: #e0f7f7;
+    border-radius: 8px;
+}
+
+
+/* Hacer el panel-heading más visible */
+.panel-heading{
+    background-color: #01695f !important;
+}
+.panel-heading a{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.panel-heading a:hover{
+    color: #00fff2 !important;
+}
+
+
+/* Jumbotron mas adaptado al tema */
+.jumbotron{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+/* HOVER SUTIL */
+.jumbotron:hover{
+    background-color: #d9f5f3; /* blanco con tinte turquesa */
+    box-shadow: 0 0 25px rgba(0, 255, 242, 0.35);
+}
+
+/* BREADCRUMB PERSONALIZADO */
+.breadcrumb{
+    background-color: #ffffff; /* fondo blanco */
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+/* Links */
+.breadcrumb li a{
+    color: #01695f; /* verde oscuro (contraste) */
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Hover en links */
+.breadcrumb li a:hover{
+    color: #00bfa5; /* turquesa */
+    text-shadow: 0 0 3px rgba(0,191,165,0.4);
+}
+
+/* Elemento activo */
+.breadcrumb .active{
+    color: #012a26; /* más oscuro para destacar */
+    font-weight: bold;
+}
+
+/* Separador "/" */
+.breadcrumb > li + li:before{
+    color: #00bfa5;
+}
+
+
+/* IMÁGENES ODS (GRID PAG2) */
+.col-md-3 img{
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Hover sutil y elegante */
+.col-md-3 img:hover{
+    transform: scale(1.05); /* pequeño zoom */
+    filter: brightness(1.1); /* un poco más brillante */
+    box-shadow: 0 0 15px rgba(0, 255, 200, 0.3); /* glow suave */
+    cursor: pointer;
+}
+
+.col-md-3{
+    transition: transform 0.3s ease;
+}
+
+.col-md-3:hover{
+    transform: translateY(-3px); /* leve elevación */
+}
