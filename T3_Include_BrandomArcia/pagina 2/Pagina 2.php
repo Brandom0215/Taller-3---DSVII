@@ -34,7 +34,7 @@
         <!--Inicia Nav de navegacion -->
         <nav class="navbar navbar-default" role="navigation">
           <div class="container">
-            <a class="navbar-brand">Taller #2_ODS</a>
+            <a class="navbar-brand">Taller #3_Include_ODS</a>
             <ul class="nav navbar-nav">
               <li>
                 <a href="../index.php">Inicio</a>
