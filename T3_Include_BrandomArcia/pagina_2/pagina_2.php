@@ -12,10 +12,7 @@
 
   <body>
     <!--Inicio de encabezado -->
-    <header>
-      <h1>Objetivos de Desarrollo Sostenible (ODS)</h1>
-      <p><center>Transformando nuestro mundo para un futuro mejor</center></p>
-    </header>
+    <?php include("headerpag2.html");?>
     <!-- fin de encabezado-->
 
     <!-- Cuerpo de la pagina -->
