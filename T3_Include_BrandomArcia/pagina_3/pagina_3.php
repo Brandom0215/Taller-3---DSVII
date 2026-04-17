@@ -1,16 +1,15 @@
+
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>T3_ODS_Include</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/estilos.css" rel="stylesheet" />
+  </head>
 
-  <title>ODS - Acciones</title>
-
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/estilos.css" rel="stylesheet" />
-</head>
-
-<body>
+  <body>
 
 <!-- HEADER -->
 <?php include("headerpag3.html"); ?>
