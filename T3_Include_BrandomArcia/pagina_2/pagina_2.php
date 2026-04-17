@@ -67,12 +67,12 @@
 
       <div class="panelPaginacion"><!-- Inicia clase paginación -->
         <!-- Inicia panel de paginación -->
-        <?php include("../paginacion.html"); ?>
+        <?php include("paginacion.html"); ?>
         <!-- Termina panel de paginación -->
       </div><!-- Termina clase paginación -->
 
       <!--Inicia el Include de footer -->
-      <?php include("../footer.html");?>
+      <?php include("footer.html");?>
       <!--Termina el Include-->
 
     </div>

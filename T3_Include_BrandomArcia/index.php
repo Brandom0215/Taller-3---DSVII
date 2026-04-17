@@ -72,8 +72,8 @@
       <!--Termina el footer-->
 
     <!-- jQuery -->
-    <script src="./js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
     <!-- Bootstrap JavaScript -->
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

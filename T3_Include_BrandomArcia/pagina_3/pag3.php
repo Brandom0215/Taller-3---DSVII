@@ -6,8 +6,8 @@
 
   <title>ODS - Acciones</title>
 
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/estilos.css" rel="stylesheet" />
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../css/estilos.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -57,8 +57,8 @@
 <!-- FOOTER -->
 <?php include("footerpag3.html"); ?>
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 
 </body>
 </html>
